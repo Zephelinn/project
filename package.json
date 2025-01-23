@@ -1,0 +1,23 @@
+{
+  "name": "discord-ticket-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.3",
+    "chalk": "^5.4.1",
+    "discord-html-transcripts": "^3.2.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1",
+    "figlet": "^1.8.0",
+    "gradient-string": "^3.0.0",
+    "twilio": "^4.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
